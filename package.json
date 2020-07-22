@@ -1,0 +1,26 @@
+{
+  "name": "refcache",
+  "version": "0.0.0",
+  "description": "Small cache abstraction that auto GCs unref'ed objects after a max size has been reached",
+  "main": "index.js",
+  "dependencies": {
+    "time-ordered-set": "^1.0.2"
+  },
+  "devDependencies": {
+    "standard": "^14.3.4",
+    "tape": "^5.0.1"
+  },
+  "scripts": {
+    "test": "standard && tape test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/refcache.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/refcache/issues"
+  },
+  "homepage": "https://github.com/mafintosh/refcache"
+}
