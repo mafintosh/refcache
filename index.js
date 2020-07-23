@@ -64,6 +64,11 @@ module.exports = class Refcache {
     this.close(oldest.value)
   }
 
+  has (key) {
+    const id = key.toString('hex')
+    return this.opened.has(id)
+  }
+
   checkout (key, opts = {}) {
     const id = key.toString('hex')
     const external = !opts.weak

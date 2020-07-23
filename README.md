@@ -54,6 +54,10 @@ with no references are closed after the max size is reached.
 If you do not want to ref count this particular checkout pass `{ weak: true }`
 to the options. All options are forwarded to open.
 
+#### `bool = cache.has(key)`
+
+Check if the cache has a specific key loaded.
+
 #### `checkout.checkin()`
 
 Call this when you are done with the value.
