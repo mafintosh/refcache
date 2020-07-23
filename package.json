@@ -1,6 +1,6 @@
 {
   "name": "refcache",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Small cache abstraction that auto GCs unref'ed objects after a max size has been reached",
   "main": "index.js",
   "dependencies": {
